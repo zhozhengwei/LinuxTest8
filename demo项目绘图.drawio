@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-31T18:33:09.906Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="bF1gGBz0R61dtpJ7WLoU" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-31T18:35:37.202Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="OM7qsFSi9zikRnJjWElb" version="20.2.7" type="github">
   <diagram id="B1sLrFIomgYrrSebihtv" name="第 1 页">
     <mxGraphModel dx="2932" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1274,7 +1274,7 @@
         <mxCell id="ecuAaUfZW-VxKhb3J7IX-281" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ecuAaUfZW-VxKhb3J7IX-279" target="ecuAaUfZW-VxKhb3J7IX-261" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ecuAaUfZW-VxKhb3J7IX-279" value="表名：classify&lt;br&gt;分类ID：classify_id&lt;br&gt;分类图标：classify_image&lt;br&gt;分类描述：classify_describe&lt;br&gt;创建人：create_by&lt;br&gt;创建时间：create_time&lt;br&gt;更新人：update_by&lt;br&gt;更新时间：update_time&lt;br&gt;逻辑删除：delect_tag (默认为 1)" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-279" value="表名：classify&lt;br&gt;分类ID：classify_id(bigint(20))&lt;br&gt;分类图标：classify_image(varchar(100))&lt;br&gt;分类描述：classify_describe(varchar(200))&lt;br&gt;创建人：create_by(bigint(20))&lt;br&gt;创建时间：create_time(datetime)&lt;br&gt;更新人：update_by(bigint(20))&lt;br&gt;更新时间：update_time(datetime)&lt;br&gt;逻辑删除：delect_tag (默认为 1)(int(10))" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="-1030" y="2650.5" width="409" height="409" as="geometry" />
         </mxCell>
         <mxCell id="ecuAaUfZW-VxKhb3J7IX-286" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="ecuAaUfZW-VxKhb3J7IX-280" target="ecuAaUfZW-VxKhb3J7IX-67" edge="1">
