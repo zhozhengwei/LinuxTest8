@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-31T18:49:28.418Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="6xWnYpeleUCIb9tHmlK8" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-31T18:50:37.184Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="ZDcH96ZjRIhNKO7MjeBy" version="20.2.7" type="github">
   <diagram id="B1sLrFIomgYrrSebihtv" name="第 1 页">
     <mxGraphModel dx="2932" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1316,7 +1316,7 @@
         <mxCell id="nn31IFEY2ArTa8Fv_3eT-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="nn31IFEY2ArTa8Fv_3eT-2" target="ecuAaUfZW-VxKhb3J7IX-183" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nn31IFEY2ArTa8Fv_3eT-2" value="表名：elm_user&lt;br&gt;主键：user_id(bigint(20))&lt;br&gt;密码：password&lt;br&gt;昵称：nick_name&lt;br&gt;头像：user_image&lt;br&gt;性别：user_sex&lt;br&gt;逻辑删除：delect_tag&lt;br&gt;创建时间：create_time&lt;br&gt;更新人：update_by&lt;br&gt;更新时间：update_time" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+        <mxCell id="nn31IFEY2ArTa8Fv_3eT-2" value="表名：elm_user&lt;br&gt;主键：user_id(bigint(20))&lt;br&gt;密码：password(varchar(100))&lt;br&gt;昵称：nick_name(varchar(100))&lt;br&gt;头像：user_image(varchar(100))&lt;br&gt;性别：user_sex(int(10))&lt;br&gt;逻辑删除：delect_tag(int(10))&lt;br&gt;创建时间：create_time(datetime)&lt;br&gt;更新人：update_by(bigint(20))&lt;br&gt;更新时间：update_time(datetime)" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="-170" y="4065" width="200" height="200" as="geometry" />
         </mxCell>
         <mxCell id="nn31IFEY2ArTa8Fv_3eT-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="nn31IFEY2ArTa8Fv_3eT-4" target="ecuAaUfZW-VxKhb3J7IX-253" edge="1">
