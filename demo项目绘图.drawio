@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-31T18:15:34.852Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="a3QRmU7DZpsA28LzlMiE" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-31T18:20:23.755Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="4PnOjsDnZSue-yVY0rfD" version="20.2.7" type="github">
   <diagram id="B1sLrFIomgYrrSebihtv" name="第 1 页">
     <mxGraphModel dx="2932" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1208,7 +1208,7 @@
         <mxCell id="ecuAaUfZW-VxKhb3J7IX-283" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ecuAaUfZW-VxKhb3J7IX-258" target="ecuAaUfZW-VxKhb3J7IX-44" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ecuAaUfZW-VxKhb3J7IX-258" value="表名：business&lt;br&gt;商家名称：business_name&lt;br&gt;商家地址：business_address&lt;br&gt;商家简介：business_introduction&lt;br&gt;商家封面：business_image&lt;br&gt;商家分类：business_classification&lt;br&gt;起送价格：business_startPrice&lt;br&gt;配送费用：business_deliveryPrice&lt;br&gt;管理人：user_id&lt;br&gt;创建人：create_id&lt;br&gt;创建时间：create_tine&lt;br&gt;更新人：update_id&lt;br&gt;更新时间：update_time&lt;br&gt;逻辑删除：delect_tag (默认为 1)" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-258" value="表名：business&lt;br&gt;商家名称：business_name&lt;br&gt;商家地址：business_address&lt;br&gt;商家简介：business_introduction&lt;br&gt;商家封面：business_image&lt;br&gt;商家分类：business_classification&lt;br&gt;起送价格：business_startPrice&lt;br&gt;配送费用：business_deliveryPrice&lt;br&gt;管理人：user_id&lt;br&gt;创建人：create_by&lt;br&gt;创建时间：create_time&lt;br&gt;更新人：update_by&lt;br&gt;更新时间：update_time&lt;br&gt;逻辑删除：delect_tag (默认为 1)" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="1260" y="2229" width="386" height="386" as="geometry" />
         </mxCell>
         <mxCell id="ecuAaUfZW-VxKhb3J7IX-282" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ecuAaUfZW-VxKhb3J7IX-260" target="ecuAaUfZW-VxKhb3J7IX-61" edge="1">
@@ -1307,46 +1307,46 @@
         <mxCell id="ecuAaUfZW-VxKhb3J7IX-291" value="表名：cart&lt;br&gt;主键：cart_id&lt;br&gt;食物ID：food_id&lt;br&gt;商家ID：business_id&lt;br&gt;用户ID：user_id&lt;br&gt;数量：quantity" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="1370" y="3520" width="220" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="nn31IFEY2ArTa8Fv_3eT-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="E7gJIrRqUvdDKUPlFw2c-1" target="ecuAaUfZW-VxKhb3J7IX-149">
+        <mxCell id="nn31IFEY2ArTa8Fv_3eT-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="E7gJIrRqUvdDKUPlFw2c-1" target="ecuAaUfZW-VxKhb3J7IX-149" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="E7gJIrRqUvdDKUPlFw2c-1" value="表名：order_food&lt;br&gt;关联表主键：order_food_id&lt;br&gt;订单ID：order_id&lt;br&gt;食品ID：food_id" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="40" y="3665" width="150" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="nn31IFEY2ArTa8Fv_3eT-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nn31IFEY2ArTa8Fv_3eT-2" target="ecuAaUfZW-VxKhb3J7IX-183">
+        <mxCell id="nn31IFEY2ArTa8Fv_3eT-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="nn31IFEY2ArTa8Fv_3eT-2" target="ecuAaUfZW-VxKhb3J7IX-183" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nn31IFEY2ArTa8Fv_3eT-2" value="表名：elm_user&lt;br&gt;主键：user_id&lt;br&gt;密码：password&lt;br&gt;昵称：nick_name&lt;br&gt;头像：user_image&lt;br&gt;性别：user_sex&lt;br&gt;逻辑删除：delect_tag&lt;br&gt;创建时间：create_time&lt;br&gt;更新人：update_by&lt;br&gt;更新时间：update_time" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="nn31IFEY2ArTa8Fv_3eT-2" value="表名：elm_user&lt;br&gt;主键：user_id&lt;br&gt;密码：password&lt;br&gt;昵称：nick_name&lt;br&gt;头像：user_image&lt;br&gt;性别：user_sex&lt;br&gt;逻辑删除：delect_tag&lt;br&gt;创建时间：create_time&lt;br&gt;更新人：update_by&lt;br&gt;更新时间：update_time" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="-170" y="4065" width="200" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="nn31IFEY2ArTa8Fv_3eT-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nn31IFEY2ArTa8Fv_3eT-4" target="ecuAaUfZW-VxKhb3J7IX-253">
+        <mxCell id="nn31IFEY2ArTa8Fv_3eT-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="nn31IFEY2ArTa8Fv_3eT-4" target="ecuAaUfZW-VxKhb3J7IX-253" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nn31IFEY2ArTa8Fv_3eT-4" value="表名：user_role&lt;br&gt;用户ID：user_id&lt;br&gt;角色ID：role_id" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="nn31IFEY2ArTa8Fv_3eT-4" value="表名：user_role&lt;br&gt;用户ID：user_id&lt;br&gt;角色ID：role_id" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="55" y="4350" width="140" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="nn31IFEY2ArTa8Fv_3eT-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nn31IFEY2ArTa8Fv_3eT-6" target="ecuAaUfZW-VxKhb3J7IX-164">
+        <mxCell id="nn31IFEY2ArTa8Fv_3eT-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="nn31IFEY2ArTa8Fv_3eT-6" target="ecuAaUfZW-VxKhb3J7IX-164" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nn31IFEY2ArTa8Fv_3eT-6" value="表名：address&lt;br&gt;地址主键：address_id&lt;br&gt;收件人姓名：address_name&lt;br&gt;性别：address_sex&lt;br&gt;收件人电话：address_phone&lt;br&gt;收件人地址：address_arive&lt;br&gt;创建人：create_by&lt;br&gt;创建时间：create_time&lt;br&gt;更新人：update_by&lt;br&gt;更新时间：update_time&lt;br&gt;逻辑删除：delect_tag" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="nn31IFEY2ArTa8Fv_3eT-6" value="表名：address&lt;br&gt;地址主键：address_id&lt;br&gt;收件人姓名：address_name&lt;br&gt;性别：address_sex&lt;br&gt;收件人电话：address_phone&lt;br&gt;收件人地址：address_arive&lt;br&gt;创建人：create_by&lt;br&gt;创建时间：create_time&lt;br&gt;更新人：update_by&lt;br&gt;更新时间：update_time&lt;br&gt;逻辑删除：delect_tag" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="720" y="4030" width="210" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="nn31IFEY2ArTa8Fv_3eT-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nn31IFEY2ArTa8Fv_3eT-9" target="ecuAaUfZW-VxKhb3J7IX-229">
+        <mxCell id="nn31IFEY2ArTa8Fv_3eT-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="nn31IFEY2ArTa8Fv_3eT-9" target="ecuAaUfZW-VxKhb3J7IX-229" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nn31IFEY2ArTa8Fv_3eT-9" value="表名：role&lt;br&gt;主键：role_id&lt;br&gt;角色名称：role_name&lt;br&gt;角色权限字符：role_key&lt;br&gt;角色状态：role_status&lt;br&gt;逻辑删除：delect_tag&lt;br&gt;创建人：create_by&lt;br&gt;创建时间：create_time&lt;br&gt;更新人：update_by&lt;br&gt;更新时间：update_time&lt;br&gt;备注：remark" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="nn31IFEY2ArTa8Fv_3eT-9" value="表名：role&lt;br&gt;主键：role_id&lt;br&gt;角色名称：role_name&lt;br&gt;角色权限字符：role_key&lt;br&gt;角色状态：role_status&lt;br&gt;逻辑删除：delect_tag&lt;br&gt;创建人：create_by&lt;br&gt;创建时间：create_time&lt;br&gt;更新人：update_by&lt;br&gt;更新时间：update_time&lt;br&gt;备注：remark" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="-112.5" y="4697.5" width="205" height="205" as="geometry" />
         </mxCell>
-        <mxCell id="nn31IFEY2ArTa8Fv_3eT-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nn31IFEY2ArTa8Fv_3eT-11" target="ecuAaUfZW-VxKhb3J7IX-250">
+        <mxCell id="nn31IFEY2ArTa8Fv_3eT-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="nn31IFEY2ArTa8Fv_3eT-11" target="ecuAaUfZW-VxKhb3J7IX-250" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nn31IFEY2ArTa8Fv_3eT-11" value="表名：role_menu&lt;br&gt;角色ID：role_id&lt;br&gt;菜单ID：menu" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="nn31IFEY2ArTa8Fv_3eT-11" value="表名：role_menu&lt;br&gt;角色ID：role_id&lt;br&gt;菜单ID：menu" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="610" y="4870" width="130" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="nn31IFEY2ArTa8Fv_3eT-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nn31IFEY2ArTa8Fv_3eT-13" target="ecuAaUfZW-VxKhb3J7IX-200">
+        <mxCell id="nn31IFEY2ArTa8Fv_3eT-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="nn31IFEY2ArTa8Fv_3eT-13" target="ecuAaUfZW-VxKhb3J7IX-200" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nn31IFEY2ArTa8Fv_3eT-13" value="表名：menu&lt;br&gt;主键：menu_id&lt;br&gt;菜单名字：menu_name&lt;br&gt;路由地址：menu_path&lt;br&gt;组件路径：component&lt;br&gt;菜单状态：visible&lt;br&gt;菜单状态：status&lt;br&gt;权限标识：perms&lt;br&gt;菜单图标：icon&lt;br&gt;创建人：create_by&lt;br&gt;创建时间：create_time&lt;br&gt;更新人：update_by&lt;br&gt;更新时间：update_time" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="nn31IFEY2ArTa8Fv_3eT-13" value="表名：menu&lt;br&gt;主键：menu_id&lt;br&gt;菜单名字：menu_name&lt;br&gt;路由地址：menu_path&lt;br&gt;组件路径：component&lt;br&gt;菜单状态：visible&lt;br&gt;菜单状态：status&lt;br&gt;权限标识：perms&lt;br&gt;菜单图标：icon&lt;br&gt;创建人：create_by&lt;br&gt;创建时间：create_time&lt;br&gt;更新人：update_by&lt;br&gt;更新时间：update_time" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="670" y="4561" width="230" height="230" as="geometry" />
         </mxCell>
       </root>
