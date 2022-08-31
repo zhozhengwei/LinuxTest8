@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-31T18:44:16.900Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="bIPCw8BauCBSBMlSN7Sw" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-31T18:46:13.644Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="C2KeEtZoBVaOqwT4bTtZ" version="20.2.7" type="github">
   <diagram id="B1sLrFIomgYrrSebihtv" name="第 1 页">
     <mxGraphModel dx="2932" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1304,14 +1304,14 @@
         <mxCell id="ecuAaUfZW-VxKhb3J7IX-292" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="ecuAaUfZW-VxKhb3J7IX-291" target="ecuAaUfZW-VxKhb3J7IX-147" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ecuAaUfZW-VxKhb3J7IX-291" value="表名：cart&lt;br&gt;主键：cart_id(bigint(20))&lt;br&gt;食物ID：food_id(bigint(20))&lt;br&gt;商家ID：business_id(bigint(20))&lt;br&gt;用户ID：user_id(bigint(20))&lt;br&gt;数量：quantity(int)" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-291" value="表名：cart&lt;br&gt;主键：cart_id(bigint(20))&lt;br&gt;食物ID：food_id(bigint(20))&lt;br&gt;商家ID：business_id(bigint(20))&lt;br&gt;用户ID：user_id(bigint(20))&lt;br&gt;数量：quantity(int(11))" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="1370" y="3520" width="220" height="220" as="geometry" />
         </mxCell>
         <mxCell id="nn31IFEY2ArTa8Fv_3eT-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="E7gJIrRqUvdDKUPlFw2c-1" target="ecuAaUfZW-VxKhb3J7IX-149" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="E7gJIrRqUvdDKUPlFw2c-1" value="表名：order_food&lt;br&gt;关联表主键：order_food_id&lt;br&gt;订单ID：order_id&lt;br&gt;食品ID：food_id" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="40" y="3665" width="150" height="150" as="geometry" />
+        <mxCell id="E7gJIrRqUvdDKUPlFw2c-1" value="表名：order_food&lt;br&gt;关联表主键：order_food_id(bigint(20))&lt;br&gt;订单ID：order_id(bigint(20))&lt;br&gt;食品ID：food_id(bigint(20))&lt;br&gt;食品数量：quantity(int(11))" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="-62.5" y="3620" width="240" height="240" as="geometry" />
         </mxCell>
         <mxCell id="nn31IFEY2ArTa8Fv_3eT-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="nn31IFEY2ArTa8Fv_3eT-2" target="ecuAaUfZW-VxKhb3J7IX-183" edge="1">
           <mxGeometry relative="1" as="geometry" />
