@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-31T18:56:39.505Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="JiVDomrlRPbldkwrUpxH" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-31T18:57:08.302Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="4GEVH6XIObH7NKULE6x5" version="20.2.7" type="github">
   <diagram id="B1sLrFIomgYrrSebihtv" name="第 1 页">
     <mxGraphModel dx="2932" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1340,7 +1340,7 @@
         <mxCell id="nn31IFEY2ArTa8Fv_3eT-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="nn31IFEY2ArTa8Fv_3eT-11" target="ecuAaUfZW-VxKhb3J7IX-250" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nn31IFEY2ArTa8Fv_3eT-11" value="表名：role_menu&lt;br&gt;角色ID：role_id&lt;br&gt;菜单ID：menu_id" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+        <mxCell id="nn31IFEY2ArTa8Fv_3eT-11" value="表名：role_menu&lt;br&gt;角色ID：role_id(bigint(20))&lt;br&gt;菜单ID：menu_id(bigint(20))" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="610" y="4870" width="130" height="130" as="geometry" />
         </mxCell>
         <mxCell id="nn31IFEY2ArTa8Fv_3eT-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="nn31IFEY2ArTa8Fv_3eT-13" target="ecuAaUfZW-VxKhb3J7IX-200" edge="1">
