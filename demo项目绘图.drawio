@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-31T07:55:16.885Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="H3hhqDMKuKIvnGhBJYid" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-31T12:20:24.568Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="g4TyqPt0Pb2rpiHNppu8" version="20.2.7" type="github">
   <diagram id="B1sLrFIomgYrrSebihtv" name="第 1 页">
     <mxGraphModel dx="2932" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1307,8 +1307,29 @@
         <mxCell id="ecuAaUfZW-VxKhb3J7IX-291" value="表名：cart&lt;br&gt;主键：cart_id&lt;br&gt;食物ID：food_id&lt;br&gt;商家ID：business_id&lt;br&gt;用户ID：user_id&lt;br&gt;数量：quantity" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="1370" y="3520" width="220" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="E7gJIrRqUvdDKUPlFw2c-1" value="表名：order_food&lt;br&gt;关联表主键：order_food_id&lt;br&gt;订单ID：order_id&lt;br&gt;食品ID：food_id" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="23.5" y="3670" width="150" height="150" as="geometry" />
+        <mxCell id="nn31IFEY2ArTa8Fv_3eT-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="E7gJIrRqUvdDKUPlFw2c-1" target="ecuAaUfZW-VxKhb3J7IX-149">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E7gJIrRqUvdDKUPlFw2c-1" value="表名：order_food&lt;br&gt;关联表主键：order_food_id&lt;br&gt;订单ID：order_id&lt;br&gt;食品ID：food_id" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="40" y="3665" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="nn31IFEY2ArTa8Fv_3eT-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nn31IFEY2ArTa8Fv_3eT-2" target="ecuAaUfZW-VxKhb3J7IX-183">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nn31IFEY2ArTa8Fv_3eT-2" value="表名：elm_user&lt;br&gt;主键：user_id&lt;br&gt;密码：password&lt;br&gt;昵称：nick_name&lt;br&gt;头像：user_image&lt;br&gt;性别：user_sex&lt;br&gt;逻辑删除：delect_tag&lt;br&gt;创建时间：create_time&lt;br&gt;更新人：update_by&lt;br&gt;更新时间：update_time" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="4065" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="nn31IFEY2ArTa8Fv_3eT-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nn31IFEY2ArTa8Fv_3eT-4" target="ecuAaUfZW-VxKhb3J7IX-253">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nn31IFEY2ArTa8Fv_3eT-4" value="表名：user_role&lt;br&gt;用户ID：user_id&lt;br&gt;角色ID：role_id" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="55" y="4350" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="nn31IFEY2ArTa8Fv_3eT-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nn31IFEY2ArTa8Fv_3eT-6" target="ecuAaUfZW-VxKhb3J7IX-164">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nn31IFEY2ArTa8Fv_3eT-6" value="表名：address&lt;br&gt;地址主键：address_id&lt;br&gt;收件人姓名：address_name&lt;br&gt;性别：address_sex&lt;br&gt;收件人电话：address_phone&lt;br&gt;收件人地址：address_arive&lt;br&gt;创建人：create_by&lt;br&gt;创建时间：create_time&lt;br&gt;更新人：update_by&lt;br&gt;更新时间：update_time&lt;br&gt;逻辑删除：delect_tag" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="720" y="4030" width="210" height="210" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
