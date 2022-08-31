@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-31T16:55:48.944Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="-QmqtNs3TdhOce2MUWTL" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-31T16:56:26.880Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="I9UVNPULdTUMm5PQIS12" version="20.2.7" type="github">
   <diagram id="B1sLrFIomgYrrSebihtv" name="第 1 页">
     <mxGraphModel dx="2932" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1182,13 +1182,13 @@
           <mxGeometry x="410" y="4950" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ecuAaUfZW-VxKhb3J7IX-250" value="角色对应的菜单" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#3399FF;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="590" y="4775" width="120" height="60" as="geometry" />
+          <mxGeometry x="770" y="4905" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ecuAaUfZW-VxKhb3J7IX-251" value="角色ID" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="720" y="4770" width="120" height="30" as="geometry" />
+          <mxGeometry x="900" y="4900" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ecuAaUfZW-VxKhb3J7IX-252" value="菜单ID" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="720" y="4805" width="120" height="30" as="geometry" />
+          <mxGeometry x="900" y="4935" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ecuAaUfZW-VxKhb3J7IX-253" value="用户对应角色" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#3399FF;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="285" y="4390" width="120" height="60" as="geometry" />
