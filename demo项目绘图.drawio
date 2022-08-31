@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-31T02:10:47.316Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="EgpE3KF3uzKcm43P_Ecl" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-31T03:01:47.066Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="uceP6pePnYqQX2kCPF4i" version="20.2.7" type="github">
   <diagram id="B1sLrFIomgYrrSebihtv" name="第 1 页">
-    <mxGraphModel dx="1920" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1463" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -510,19 +510,19 @@
           <mxGeometry x="810" y="1635" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ecuAaUfZW-VxKhb3J7IX-10" value="以食品关键词搜索商户" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="810" y="1670" width="140" height="30" as="geometry" />
+          <mxGeometry x="810" y="1680" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ecuAaUfZW-VxKhb3J7IX-11" value="地址管理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="810" y="1710" width="140" height="30" as="geometry" />
+          <mxGeometry x="810" y="1724" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ecuAaUfZW-VxKhb3J7IX-12" value="增加删除修改查询" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="960" y="1710" width="140" height="30" as="geometry" />
+          <mxGeometry x="960" y="1720" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ecuAaUfZW-VxKhb3J7IX-13" value="商家的店铺内部搜索食品" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="960" y="1635" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ecuAaUfZW-VxKhb3J7IX-14" value="商家的店铺评论" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="960" y="1670" width="140" height="30" as="geometry" />
+          <mxGeometry x="960" y="1680" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ecuAaUfZW-VxKhb3J7IX-15" value="支付逻辑支持" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="1110" y="1635" width="140" height="30" as="geometry" />
@@ -696,7 +696,7 @@
           <mxGeometry x="970" y="2970" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ecuAaUfZW-VxKhb3J7IX-76" value="查询自己的评论" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1110" y="1670" width="140" height="30" as="geometry" />
+          <mxGeometry x="1110" y="1680" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ecuAaUfZW-VxKhb3J7IX-77" value="食品描述" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="970" y="2925" width="120" height="30" as="geometry" />
@@ -887,10 +887,10 @@
         <mxCell id="ecuAaUfZW-VxKhb3J7IX-146" value="逻辑删除" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="530" y="3560" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ecuAaUfZW-VxKhb3J7IX-147" value="订单表结构" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-147" value="购物车表结构" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="965" y="3590" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ecuAaUfZW-VxKhb3J7IX-148" value="总价格" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-148" value="购物车ID" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1100" y="3510" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ecuAaUfZW-VxKhb3J7IX-149" value="订单对应食品的关联表" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#3399FF;strokeColor=#82b366;" vertex="1" parent="1">
@@ -901,6 +901,222 @@
         </mxCell>
         <mxCell id="ecuAaUfZW-VxKhb3J7IX-151" value="食品ID" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="390" y="3740" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-152" value="食物ID" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="3550" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-153" value="商品ID" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="3590" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-154" value="用户ID" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="3630" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-155" value="数量" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="3670" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-156" value="前端数据显示（封装dto）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="3447" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-157" value="食物信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="3550" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-160" value="数量" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="3590" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-161" value="关联表主键" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="3660" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-163" value="食物数量" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="3780" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-164" value="地址表结构" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="965" y="4015" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-165" value="地址主键" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="3870" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-166" value="收件人姓名" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="3910" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-167" value="性别" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="3950" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-168" value="收件人电话" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="3990" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-169" value="收件人地址" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="4030" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-170" value="用户ID（创建人）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="4077" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-171" value="创建时间" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="4120" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-172" value="更新人" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="4160" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-174" value="更新时间" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="4200" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-175" value="逻辑删除" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="4240" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-176" value="前端数据显示（封装dto）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="3800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-177" value="收件人姓名" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="3910" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-178" value="性别" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="3950" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-179" value="收件人电话" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="3990" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-180" value="收件人地址" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="4030" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-181" value="创建时间" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="4075" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-182" value="这里有一个修改地址的逻辑" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="3910" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-183" value="用户表结构更新" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="145" y="4135" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-184" value="用户ID（电话号码）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="3990" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-185" value="密码" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="4030" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-186" value="昵称" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="4070" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-187" value="头像" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="4107" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-188" value="性别" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="4150" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-189" value="逻辑删除" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="4190" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-190" value="创建时间" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="4230" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-191" value="更新人" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="4270" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-192" value="更新时间" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="4310" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-193" value="前端数据显示（封装dto）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="405" y="3910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-194" value="用户和管理员的接口数据是不一致的，前台和后台的数据显示不一致" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="660" y="3720" width="290" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-195" value="用户ID（电话号码）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="4010" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-196" value="昵称" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="4050" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-197" value="头像" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="4090" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-198" value="性别" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="4135" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-199" value="创建时间" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="4180" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-200" value="菜单表结构" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="4590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-201" value="主键" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="4430" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-202" value="菜单名字" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="4470" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-203" value="路由地址" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="4510" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-204" value="组件路径" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="4550" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-205" value="菜单状态（0显示 1隐藏）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="4590" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-206" value="菜单状态（0正常 1停用）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="4630" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-207" value="权限标识" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="4676" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-208" value="菜单图标" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="4720" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-209" value="创建人" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="4760" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-210" value="创建时间" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="4800" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-211" value="前端数据显示（封装dto）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="4350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-213" value="菜单名字" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="4470" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-214" value="路由地址" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="4510" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-215" value="组件路径" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="4550" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-216" value="菜单状态（0显示 1隐藏）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="4590" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-217" value="菜单状态（0正常 1停用）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="4630" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-218" value="权限标识" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="4676" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-219" value="更新人" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="4840" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-220" value="更新时间" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="4880" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-221" value="逻辑删除" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="4920" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-222" value="备注" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="4960" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-223" value="菜单图标" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="4720" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-224" value="创建人" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="4760" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-225" value="创建时间" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="4800" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-226" value="更新人" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="4840" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-227" value="更新时间" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="4880" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-228" value="备注" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="4920" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
