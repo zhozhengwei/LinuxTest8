@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-31T18:35:37.202Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="OM7qsFSi9zikRnJjWElb" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-31T18:37:14.672Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="TxlohuqrVRf6UPHCTe_J" version="20.2.7" type="github">
   <diagram id="B1sLrFIomgYrrSebihtv" name="第 1 页">
     <mxGraphModel dx="2932" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1214,7 +1214,7 @@
         <mxCell id="ecuAaUfZW-VxKhb3J7IX-282" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ecuAaUfZW-VxKhb3J7IX-260" target="ecuAaUfZW-VxKhb3J7IX-61" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ecuAaUfZW-VxKhb3J7IX-260" value="表名：food_classify&lt;br&gt;细分食品分类：food_classify_id&lt;br&gt;分类名称：food_classify_name&lt;br&gt;商家ID：business_id&lt;br&gt;&lt;div&gt;创建人：create_by&lt;/div&gt;&lt;div&gt;创建时间：create_time&lt;/div&gt;&lt;div&gt;更新人：update_by&lt;/div&gt;&lt;div&gt;更新时间：update_time&lt;/div&gt;&lt;div&gt;逻辑删除：delect_tag (默认为 1)&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-260" value="表名：food_classify&lt;br&gt;细分食品分类：food_classify_id(bigint(20))&lt;br&gt;分类名称：food_classify_name(varchar(100))&lt;br&gt;商家ID：business_id(bigint(20))&lt;br&gt;&lt;div&gt;创建人：create_by&lt;/div&gt;(bigint(20))&lt;div&gt;创建时间：create_time&lt;/div&gt;(datetime)&lt;div&gt;更新人：update_by&lt;/div&gt;(bigint(20))&lt;div&gt;更新时间：update_time&lt;/div&gt;(datetime)&lt;div&gt;逻辑删除：delect_tag (默认为 1)(int(10))&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="-32" y="2635" width="282" height="282" as="geometry" />
         </mxCell>
         <mxCell id="ecuAaUfZW-VxKhb3J7IX-261" value="商户的分类" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
