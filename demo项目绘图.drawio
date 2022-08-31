@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-31T03:01:47.066Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="uceP6pePnYqQX2kCPF4i" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-31T05:48:53.113Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="fExr9UZIwYivqo3_c7am" version="20.2.7" type="github">
   <diagram id="B1sLrFIomgYrrSebihtv" name="第 1 页">
-    <mxGraphModel dx="1463" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2425" dy="674" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1035,7 +1035,7 @@
           <mxGeometry x="425" y="4180" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ecuAaUfZW-VxKhb3J7IX-200" value="菜单表结构" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="950" y="4590" width="120" height="60" as="geometry" />
+          <mxGeometry x="960" y="4646" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ecuAaUfZW-VxKhb3J7IX-201" value="主键" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1100" y="4430" width="120" height="30" as="geometry" />
@@ -1117,6 +1117,87 @@
         </mxCell>
         <mxCell id="ecuAaUfZW-VxKhb3J7IX-228" value="备注" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1240" y="4920" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-229" value="角色表结构" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="125" y="4770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-230" value="主键" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="4590" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-231" value="角色名称" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="4630" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-232" value="角色权限字符串" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="4670" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-233" value="角色状态" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="4706" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-234" value="逻辑删除" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="4750" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-235" value="创建人" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="4790" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-236" value="创建时间" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="4830" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-237" value="更新人" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="4870" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-238" value="更新时间" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="4910" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-239" value="备注" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="4950" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-240" value="前端数据显示（封装dto）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="400" y="4510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-241" value="角色名称" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="4630" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-242" value="角色权限字符串" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="4670" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-243" value="角色状态" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="4706" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-244" value="逻辑删除" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="4750" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-245" value="创建人" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="4790" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-246" value="创建时间" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="4830" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-247" value="更新人" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="4870" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-248" value="更新时间" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="4910" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-249" value="备注" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="4950" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-250" value="角色对应的菜单" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#3399FF;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="590" y="4775" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-251" value="角色ID" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="4770" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-252" value="菜单ID" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="4805" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-253" value="用户对应角色" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#3399FF;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="285" y="4390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-254" value="用户ID" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="4390" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-255" value="角色ID" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="4430" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
