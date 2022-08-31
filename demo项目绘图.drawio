@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-31T12:20:24.568Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="g4TyqPt0Pb2rpiHNppu8" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-31T16:55:48.944Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="-QmqtNs3TdhOce2MUWTL" version="20.2.7" type="github">
   <diagram id="B1sLrFIomgYrrSebihtv" name="第 1 页">
     <mxGraphModel dx="2932" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1330,6 +1330,9 @@
         </mxCell>
         <mxCell id="nn31IFEY2ArTa8Fv_3eT-6" value="表名：address&lt;br&gt;地址主键：address_id&lt;br&gt;收件人姓名：address_name&lt;br&gt;性别：address_sex&lt;br&gt;收件人电话：address_phone&lt;br&gt;收件人地址：address_arive&lt;br&gt;创建人：create_by&lt;br&gt;创建时间：create_time&lt;br&gt;更新人：update_by&lt;br&gt;更新时间：update_time&lt;br&gt;逻辑删除：delect_tag" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="720" y="4030" width="210" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="nn31IFEY2ArTa8Fv_3eT-9" value="表名：role&lt;br&gt;主键：role_id&lt;br&gt;角色名称：role_name&lt;br&gt;角色权限字符：role_&lt;br&gt;角色状态：role_status" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="4660" width="205" height="205" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
