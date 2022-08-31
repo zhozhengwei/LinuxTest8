@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-31T18:54:31.924Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="ujW3KNc2Ug9UXUkcWgTH" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-31T18:56:39.505Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="JiVDomrlRPbldkwrUpxH" version="20.2.7" type="github">
   <diagram id="B1sLrFIomgYrrSebihtv" name="第 1 页">
     <mxGraphModel dx="2932" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1346,7 +1346,7 @@
         <mxCell id="nn31IFEY2ArTa8Fv_3eT-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="nn31IFEY2ArTa8Fv_3eT-13" target="ecuAaUfZW-VxKhb3J7IX-200" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nn31IFEY2ArTa8Fv_3eT-13" value="表名：menu&lt;br&gt;主键：menu_id&lt;br&gt;菜单名字：menu_name&lt;br&gt;路由地址：menu_path&lt;br&gt;组件路径：component&lt;br&gt;菜单状态：visible&lt;br&gt;菜单状态：status&lt;br&gt;权限标识：perms&lt;br&gt;菜单图标：icon&lt;br&gt;创建人：create_by&lt;br&gt;创建时间：create_time&lt;br&gt;更新人：update_by&lt;br&gt;更新时间：update_time&lt;br&gt;备注：remark" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+        <mxCell id="nn31IFEY2ArTa8Fv_3eT-13" value="表名：menu&lt;br&gt;主键：menu_id(bigint(20))&lt;br&gt;菜单名字：menu_name(varchar(100))&lt;br&gt;路由地址：menu_path(varchar(200))&lt;br&gt;组件路径：component(varchar(200))&lt;br&gt;菜单状态：visible(int(10))&lt;br&gt;菜单状态：status(int(10))&lt;br&gt;权限标识：perms(varchar(100))&lt;br&gt;菜单图标：icon(varchar(100))&lt;br&gt;创建人：create_by(bigint(20))&lt;br&gt;创建时间：create_time(datetime)&lt;br&gt;更新人：update_by(bigint(20))&lt;br&gt;更新时间：update_time(datetime)&lt;br&gt;备注：remark" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="670" y="4561" width="230" height="230" as="geometry" />
         </mxCell>
       </root>
