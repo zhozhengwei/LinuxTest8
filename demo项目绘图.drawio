@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-31T18:57:08.302Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="4GEVH6XIObH7NKULE6x5" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-04T15:38:04.527Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="m8NJuLLkZUeOLKtWyWj-" version="20.2.8" type="github">
   <diagram id="B1sLrFIomgYrrSebihtv" name="第 1 页">
-    <mxGraphModel dx="2932" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3316" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1280,7 +1280,7 @@
         <mxCell id="ecuAaUfZW-VxKhb3J7IX-286" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="ecuAaUfZW-VxKhb3J7IX-280" target="ecuAaUfZW-VxKhb3J7IX-67" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ecuAaUfZW-VxKhb3J7IX-280" value="表名：food&lt;br&gt;主键：food_id(bigint(20))&lt;br&gt;食品描述：food_describe(varchar(100))&lt;br&gt;食品封面：food_image(varchar(100))&lt;br&gt;食品价格：food_price(double)&lt;br&gt;商家ID：business_id(bigint(20))&lt;br&gt;&lt;div&gt;创建人：create_by&lt;/div&gt;(bigint(20))&lt;div&gt;创建时间：create_time(datetime)&lt;/div&gt;&lt;div&gt;更新人：update_by&lt;/div&gt;(bigint(20))&lt;div&gt;更新时间：update_time&lt;/div&gt;(datetime)&lt;div&gt;逻辑删除：delect_tag (默认为 1)(int(10))&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+        <mxCell id="ecuAaUfZW-VxKhb3J7IX-280" value="表名：food&lt;br&gt;主键：food_id(bigint(20))&lt;br&gt;食物名称：food_name(varchar(100))&lt;br&gt;食品描述：food_describe(varchar(100))&lt;br&gt;食品封面：food_image(varchar(100))&lt;br&gt;食品价格：food_price(double)&lt;br&gt;商家ID：business_id(bigint(20))&lt;br&gt;&lt;div&gt;创建人：create_by&lt;/div&gt;(bigint(20))&lt;div&gt;创建时间：create_time(datetime)&lt;/div&gt;&lt;div&gt;更新人：update_by&lt;/div&gt;(bigint(20))&lt;div&gt;更新时间：update_time&lt;/div&gt;(datetime)&lt;div&gt;逻辑删除：delect_tag (默认为 1)(int(10))&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="1270" y="2915" width="350" height="350" as="geometry" />
         </mxCell>
         <mxCell id="ecuAaUfZW-VxKhb3J7IX-284" value="细分食品对应食品" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#3399FF;" parent="1" vertex="1">
